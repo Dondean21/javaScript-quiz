@@ -1,0 +1,16 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+#scoreBoard {
+  padding-left: 20px;
+}
+
+#time {
+  position: relative;
+  float: right;
+  bottom: 40px;
+  padding-right: 20px;
+}
