@@ -3,10 +3,10 @@ var startButton;
 var c = "correct";
 var w = "wrong";
 
-var n = 0;
-n++;
-var s = 0;
-s++;
+// var n = 0;
+// n++;
+// var s = 0;
+// s++;
 
 var seconds;
 
@@ -21,7 +21,7 @@ function begin001() {
   option2.innerHTML = a2[0];
   option3.innerHTML = a3[0];
   option4.innerHTML = a4[0];
-  n++;
+//   n++;
 }
 
 function q1c() {
@@ -32,7 +32,7 @@ function q1c() {
   option4.innerHTML = "";
   next1.innerHTML =
     "<button class = nextButton onClick = quest2()> next question</button>";
-  finalScore.innerHTML = s = s + 15;
+  finalScore.innerHTML = s++;
 }
 
 function q1w() {
@@ -54,7 +54,7 @@ function quest2() {
   option4.innerHTML = a4[1];
   answer.innerHTML = "";
   next1.innerHTML = "";
-  n++;
+//   n++;
 }
 
 function q2c() {
@@ -65,7 +65,7 @@ function q2c() {
   option4.innerHTML = "";
   next1.innerHTML =
     "<button class = nextButton onClick = quest3()> next question</button>";
-    finalScore.innerHTML = s++;
+    // finalScore.innerHTML = s++;
 }
 
 function q2w() {
@@ -87,7 +87,7 @@ function quest3() {
   option4.innerHTML = a4[2];
   answer.innerHTML = "";
   next1.innerHTML = "";
-  n++;
+//   n++;
 }
 
 function q3c() {
@@ -98,7 +98,7 @@ function q3c() {
   option4.innerHTML = "";
   next1.innerHTML =
     "<button class = nextButton onClick = quest4()> next question</button>";
-    finalScore.innerHTML = s++;
+    // finalScore.innerHTML = s++;
 }
 
 function q3w() {
@@ -120,7 +120,7 @@ function quest4() {
   option4.innerHTML = a4[3];
   answer.innerHTML = "";
   next1.innerHTML = "";
-  n++;
+//   n++;
 }
 
 function q4c() {
@@ -131,7 +131,7 @@ function q4c() {
   option4.innerHTML = "";
   next1.innerHTML =
     "<button class = nextButton onClick = quest5()> next question</button>";
-    finalScore.innerHTML = s++;
+    // finalScore.innerHTML = s++;
 }
 
 function q4w() {
@@ -153,7 +153,7 @@ function quest5() {
   option4.innerHTML = a4[4];
   answer.innerHTML = "";
   next1.innerHTML = "";
-  n++;
+//   n++;
 }
 
 function q5c() {
@@ -165,7 +165,7 @@ function q5c() {
   next1.innerHTML =
     "<button class = nextButton onClick = window.open('highscores.html')> end of quiz</button>";
 
-    finalScore.innerHTML = s++;
+    // finalScore.innerHTML = s++;
 }
 
 function q5w() {
