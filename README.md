@@ -1,1 +1,3 @@
 # javaScript-quiz
+
+This is a simple JavaScript quiz. To begin press start quiz button. The timer will start at 75 seconds and count down, if you answer a question incorrectly the time will decrease by 15 seconds as a penalty. If the time runs out before you finish, the quiz will end. At the end of the quiz you will recive your final score and have the option to save your initials and see where you rank among past players.  

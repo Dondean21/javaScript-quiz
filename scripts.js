@@ -32,7 +32,7 @@ function q1c() {
   option4.innerHTML = "";
   next1.innerHTML =
     "<button class = nextButton onClick = quest2()> next question</button>";
-  finalScore.innerHTML = s++;
+  finalScore.innerHTML = s = s + 15;
 }
 
 function q1w() {
@@ -200,50 +200,4 @@ update = setInterval("startTimer()",1000);
 
 
 
-// function startTimer() {
-//   totalSeconds = 75;
-// //   var seconds = parseInt(totalSeconds % 60);
-//   document.getElementById("time").innerHTML = "Timer: " + totalSeconds;
-//   if (totalSeconds <= 0) {
-//     setTimeout("window.open(highscores.HTML)");
-//   } else {
-//     totalSeconds = totalSeconds - 1;
-//     seconds = parseInt(totalSeconds % 60);
-//     setTimeout("startTimer()", 1000);
-//   }
-// }
-// setTimeout(startTimer(),1000);
 
-// startTime = 75;
-
-// setInterval(function(){
-//     startTime = document.getElementById("#time");
-//     startTime--;
-// },1000)
-
-// var submit = document.getElementById("#submit")
-
-// submit.addEventListener("click",function(event){
-//     // event.preventDefault();
-
-//     var user = initialsInput;
-// });
-
-// console.log(user);
-// var quizQ = document.getElementById("questions")
-
-//     for(var i = 0; i < questions.length; i++){
-
-//  }
-
-// for(var i = 0; i < questions.length; i++){
-//     var response = window.(questions[i]);
-//     if(response === questions.answer){
-//         score++;
-//         alert("correct");
-//     }else{
-//         alert("wrong")
-//         --timer
-//     }
-// }
-//  alert("total score " + score );
