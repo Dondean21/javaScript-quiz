@@ -7,7 +7,7 @@ var highScoreList = document.querySelector("#highScoreList");
 var user;
 var highScores = [];
 
-
+ init();
 
 function displayMessage(type , message){
     msgDiv.textContent = message;
