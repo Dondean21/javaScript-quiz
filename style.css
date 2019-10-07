@@ -2,6 +2,7 @@ header {
   background-color: whitesmoke;
   color: plum;
   padding: 10px;
+  width: 100%;
 }
 
 
@@ -11,22 +12,29 @@ header {
   padding-left: 20px;
 }
 
-#time {
+text {
   position: relative;
   float: right;
-  bottom: 70px;
+  bottom: 50px;
   margin-right: 50px;
+ font-size: 24px;
+ 
+}
+
+#time{
+ 
+position: relative;
+top:1px;
+padding-left: 10px;
 
 }
 
-#pTag{
-    color:red;
-}
+
 
 .startQuizDiv{
     text-align: center;
     padding-top: 100px;
-    
+
 }
 .startBtn{
     /* margin:auto; */
@@ -82,3 +90,25 @@ header {
     margin-bottom: 20px;
 }
 
+#highScoreEnter{
+    text-align: center;
+    
+
+}
+
+.submit{
+    background-color:coral;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+#finalScore{
+    float: none;
+    top:1.5px;
+    font-size: 16pt;
+}
+#highScorePage{
+
+    background-color: darkorange;
+
+}
